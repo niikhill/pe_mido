@@ -452,6 +452,7 @@
     <!-- Enable NightLight -->
     <bool name="config_nightDisplayAvailable">true</bool>
 
+
     <!-- Button brightness -->
     <integer name="config_buttonBrightnessSettingDefault">255</integer>
     <bool name="config_deviceHasVariableButtonBrightness">true</bool>    
@@ -472,7 +473,7 @@
     <bool name="config_ledCanPulse">true</bool>
 
     <!-- Default list of files pinned by the Pinner Service -->
-    <string-array translatable="false" name="config_defaultPinnerServiceFiles">
+   <string-array translatable="false" name="config_defaultPinnerServiceFiles">
     <item>"/system/framework/arm64/boot-framework.oat"</item>
     <item>"/system/framework/arm64/boot-framework.vdex"</item>
     <item>"/system/framework/oat/arm64/services.odex"</item>
@@ -482,4 +483,9 @@
     <item>"/system/framework/arm64/boot-core-libart.oat"</item>
     <item>"/system/framework/arm64/boot-core-libart.vdex"</item>
     </string-array>
+    <!-- Flag indicating whether round icons should be parsed from the application manifest. -->
+    <bool name="config_useRoundIcon">true</bool>
+
+
+
 </resources>
