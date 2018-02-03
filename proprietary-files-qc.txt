@@ -59,6 +59,8 @@ vendor/bin/hci_qcomm_init
 vendor/bin/wcnss_filter
 vendor/lib/libbtnv.so
 vendor/lib64/libbtnv.so
+vendor/lib/libaptX_encoder.so
+vendor/lib64/libaptX_encoder.so
 
 # CNE
 etc/permissions/com.quicinc.cne.xml
