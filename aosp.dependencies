@@ -10,6 +10,7 @@
     "repository":  "Alexey71/android_vendor_xiaomi_oreo",
     "target_path": "vendor/xiaomi",
     "branch":      "oreo-mr1"
+  },
   {
     "remote":      "github",
     "repository":  "Alexey71/android_kernel_xiaomi_msm8953_oreo",
