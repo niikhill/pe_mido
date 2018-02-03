@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017 The LineageOS Project
+# Copyright 2018 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,20 +14,24 @@
 # limitations under the License.
 #
 
+# Inherit from those products. Most specific first.
 $(call inherit-product, device/xiaomi/mido/full_mido.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common AOSP stuff.
 TARGET_ARCH := arm64
 TARGET_DENSITY := xxhdpi
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_ARCORE := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+## Device identifier. This must come after all inclusions
 PRODUCT_NAME := aosp_mido
 BOARD_VENDOR := Xiaomi
 PRODUCT_DEVICE := mido
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+# Build fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="xiaomi/mido/mido:7.0/NRD90M/V9.0.3.0.NCFMIEI:user/release-keys" \
-    PRIVATE_BUILD_DESC="mido-user 7.0 NRD90M V9.0.3.0.NCFMIEI release-keys"
+    BUILD_FINGERPRINT="xiaomi/mido/mido:7.0/NRD90M/8.2.1:user/release-keys" \
+    PRIVATE_BUILD_DESC="mido-user 7.0 NRD90M 8.2.1 release-keys"
