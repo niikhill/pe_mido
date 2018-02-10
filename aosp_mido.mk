@@ -33,5 +33,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Build fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="xiaomi/mido/mido:7.0/NRD90M/8.2.1:user/release-keys" \
-    PRIVATE_BUILD_DESC="mido-user 7.0 NRD90M 8.2.1 release-keys"
+    BUILD_FINGERPRINT="xiaomi/mido/mido:7.0/NRD90M/8.2.8:user/release-keys" \
+    PRIVATE_BUILD_DESC="mido-user 7.0 NRD90M 8.2.8 release-keys"
