@@ -340,9 +340,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndk-sp
 
-# Whitelisted app
+# Configs
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
+   $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml \
+   $(LOCAL_PATH)/configs/powerhint.xml:system/etc/powerhint.xml
 
 # Wifi
 PRODUCT_PACKAGES += \
