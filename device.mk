@@ -141,10 +141,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl
 
-# Charger images
-PRODUCT_PACKAGES += \
-    charger_res_images
-
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8953 \
