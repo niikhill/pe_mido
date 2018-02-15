@@ -1299,13 +1299,13 @@ case "$target" in
                 echo 39000 > /sys/devices/system/cpu/cpufreq/interactive/min_sample_time
                 echo 40000 > /sys/devices/system/cpu/cpufreq/interactive/sampling_down_factor
                 echo 652800 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
-                echo 1689600 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
+                #echo 1689600 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
 
                 # Set GPU max 510MHz
-                echo 510000000 > /sys/class/kgsl/kgsl-3d0/max_gpuclk
+                #echo 510000000 > /sys/class/kgsl/kgsl-3d0/max_gpuclk
 				
                 # Set GPU default power level to 6 (133MHz)
-                echo 6 > /sys/class/kgsl/kgsl-3d0/default_pwrlevel
+                #echo 6 > /sys/class/kgsl/kgsl-3d0/default_pwrlevel
 
                 # re-enable thermal & BCL core_control now
                 echo 1 > /sys/module/msm_thermal/core_control/enabled
