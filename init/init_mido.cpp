@@ -82,25 +82,25 @@ void check_device()
     if (sys.totalram > 3072ull * 1024 * 1024) {
         // from - phone-xxhdpi-4096-dalvik-heap.mk
         heapstartsize = "16m";
-        heapgrowthlimit = "256m";
+        heapgrowthlimit = "192m";
         heapsize = "512m";
         heapminfree = "4m";
         heapmaxfree = "8m";
-	large_cache_height = "2048";
+    large_cache_height = "1024";
     } else if (sys.totalram > 2048ull * 1024 * 1024) {
         // from - phone-xxhdpi-3072-dalvik-heap.mk
-        heapstartsize = "8m";
-        heapgrowthlimit = "288m";
-        heapsize = "768m";
-        heapminfree = "512k";
-	heapmaxfree = "8m";
+        heapstartsize = "16m";
+        heapgrowthlimit = "192m";
+        heapsize = "512m";
+        heapminfree = "4m";
+        heapmaxfree = "8m";
         large_cache_height = "1024";
     } else {
         // from - phone-xxhdpi-2048-dalvik-heap.mk
         heapstartsize = "16m";
         heapgrowthlimit = "192m";
         heapsize = "512m";
-        heapminfree = "2m";
+        heapminfree = "4m";
         heapmaxfree = "8m";
         large_cache_height = "1024";
    }
