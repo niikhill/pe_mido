@@ -534,8 +534,8 @@ vendor/lib64/libthermalioctl.so|ca2dca5f433073df781073f449fd7ed73a4e4d3c
 # Time services
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
--vendor/lib/libtime_genoff.so
--vendor/lib64/libtime_genoff.so
+vendor/lib64/libTimeService.so
+vendor/lib64/libtime_genoff.so
 
 # Widevine
 vendor/lib/libWVStreamControlAPI_L3.so
