@@ -31,6 +31,19 @@ user: AID_BLUETOOTH
 group: AID_BLUETOOTH
 caps: NET_BIND_SERVICE
 
+[vendor/bin/imsrcsd]
+mode: 0755
+user: AID_SYSTEM
+group: AID_RADIO
+caps: WAKE_ALARM
+
+[system/vendor/bin/imsrcsd]
+mode: 0755
+user: AID_SYSTEM
+group: AID_RADIO
+caps: WAKE_ALARM
+
+
 [vendor/bin/pm-service]
 mode: 0755
 user: AID_SYSTEM
