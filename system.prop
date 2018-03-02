@@ -37,6 +37,7 @@ vendor.audio.dolby.ds2.hardbypass=true
 vendor.audio.flac.sw.decoder.24bit=true
 
 #low audio flinger standby delay to reduce power consumption
+
 ro.audio.flinger_standbytime_ms=300
 
 # Bluetooth
@@ -57,7 +58,7 @@ persist.camera.imglib.cac3=2
 camera.lowpower.record.enable=1
 persist.camera.gyro.disable=0
 camera.hal1.packagelist=com.skype.raider,com.google.android.talk
-
+persist.camera.HAL3.enabled=1
 # Cne/Dpm
 persist.cne.feature=1
 
@@ -146,8 +147,8 @@ persist.data.mode=concurrent
 
 # Optimize
 dalvik.vm.boot-dex2oat-threads=8
-dalvik.vm.dex2oat-threads=4
-dalvik.vm.image-dex2oat-threads=4
+dalvik.vm.dex2oat-threads=8
+dalvik.vm.image-dex2oat-threads=8
 
 # Nitz
 persist.rild.nitz_plmn=
