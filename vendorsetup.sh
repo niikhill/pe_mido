@@ -1,3 +1,1 @@
-add_lunch_combo aosp_mido-userdebug
-add_lunch_combo aosp_mido-user
-add_lunch_combo aosp_mido-eng
+add_lunch_combo abc_mido-userdebug
