@@ -39,5 +39,5 @@
 /sys/kernel/debug/rpm_master_stats              u:object_r:debugfs_rpm:s0
 
 # Sysfs
-/sys/devices/virtual/timed_output/vibrator/vtg_level            u:object_r:sysfs_vibrator:s0
+#/sys/devices/virtual/timed_output/vibrator/vtg_level            u:object_r:sysfs_vibrator:s0
 /sys/devices/soc/78b7000.i2c/i2c-3/3-0038/disable_keys          u:object_r:sysfs:s0
