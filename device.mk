@@ -15,7 +15,7 @@
 #
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
-
+$(call inherit-product, vendor/aquarios/config/utils.mk)
 $(call inherit-product, vendor/xiaomi/mido/mido-vendor.mk)
 
 # Overlays

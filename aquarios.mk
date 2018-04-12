@@ -23,10 +23,10 @@ TARGET_DENSITY := xxhdpi
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_ARCORE := true
 #$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-$(call inherit-product, vendor/liquid/config/common_full_phone.mk)
-
+#$(call inherit-product, vendor/liquid/config/common_full_phone.mk)
+$(call inherit-product, vendor/aquarios/products/aquarios_phone.mk)
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := liquid_mido
+PRODUCT_NAME := mido
 BOARD_VENDOR := Xiaomi
 PRODUCT_DEVICE := mido
 
