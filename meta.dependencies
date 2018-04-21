@@ -1,0 +1,20 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "niikhill/pe_mido",
+    "target_path": "device/xiaomi/mido",
+    "branch":      "meta"
+  },
+  {
+    "remote":      "github",
+    "repository":  "niikhill/vendor_mido",
+    "target_path": "vendor/xiaomi",
+    "branch":      "oreo-mr1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "niikhill/Omniverse_mido",
+    "target_path": "kernel/xiaomi/msm8953",
+    "branch":      "Omniverse"
+  }
+]
